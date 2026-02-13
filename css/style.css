@@ -246,12 +246,21 @@ img {
   transform: translateY(-7px) rotate(-45deg);
 }
 
-/* Nav overlay & content wrappers (visible only on mobile) */
-.nav-overlay,
-.nav-content,
-.nav-links,
-.nav-footer {
+/* Nav wrappers: transparent on desktop, structured on mobile */
+.nav-overlay {
+  display: none;
+}
+
+.nav-content {
   display: contents;
+}
+
+.nav-links {
+  display: contents;
+}
+
+.nav-footer {
+  display: none;
 }
 
 /* --- Hero --- */
