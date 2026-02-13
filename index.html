@@ -70,11 +70,39 @@
         <a href="#contact" class="btn btn-ghost">お問い合わせ</a>
       </div>
     </div>
+    <div class="hero-images fade-up" style="--delay: 0.6s">
+      <div class="hero-img hero-img--1">
+        <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=600&q=80" alt="オークション会場の車両" loading="lazy">
+      </div>
+      <div class="hero-img hero-img--2">
+        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80" alt="整備された中古車" loading="lazy">
+      </div>
+      <div class="hero-img hero-img--3">
+        <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=600&q=80" alt="車両検査の様子" loading="lazy">
+      </div>
+    </div>
     <div class="hero-scroll fade-up" style="--delay: 0.7s">
       <div class="hero-scroll-line"></div>
       <span>Scroll</span>
     </div>
   </section>
+
+  <!-- Photo Strip -->
+  <div class="photo-strip">
+    <div class="photo-strip-inner">
+      <div class="photo-strip-item"><img src="https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=400&h=250&q=80" alt="" loading="lazy"></div>
+      <div class="photo-strip-item"><img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=400&h=250&q=80" alt="" loading="lazy"></div>
+      <div class="photo-strip-item"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=400&h=250&q=80" alt="" loading="lazy"></div>
+      <div class="photo-strip-item"><img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=400&h=250&q=80" alt="" loading="lazy"></div>
+      <div class="photo-strip-item"><img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=400&h=250&q=80" alt="" loading="lazy"></div>
+      <!-- Duplicate for seamless scroll -->
+      <div class="photo-strip-item"><img src="https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=400&h=250&q=80" alt="" loading="lazy"></div>
+      <div class="photo-strip-item"><img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=400&h=250&q=80" alt="" loading="lazy"></div>
+      <div class="photo-strip-item"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=400&h=250&q=80" alt="" loading="lazy"></div>
+      <div class="photo-strip-item"><img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=400&h=250&q=80" alt="" loading="lazy"></div>
+      <div class="photo-strip-item"><img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=400&h=250&q=80" alt="" loading="lazy"></div>
+    </div>
+  </div>
 
   <!-- About -->
   <section class="section section--about" id="about">
@@ -107,6 +135,12 @@
             <div class="stat-number" data-count="20" data-suffix="年+">0</div>
             <div class="stat-label">業界への貢献</div>
           </div>
+        </div>
+      </div>
+      <div class="about-photo fade-up">
+        <img src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=1200&h=400&q=80" alt="オートオークションの様子" loading="lazy">
+        <div class="about-photo-overlay">
+          <span>全国のオークション会場と連携し、業界の健全な発展を支えています</span>
         </div>
       </div>
       <div class="about-info fade-up">
@@ -142,40 +176,44 @@
       </div>
       <div class="services-grid">
         <div class="service-card fade-up" style="--delay: 0s">
-          <div class="service-icon">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="1.5"/><path d="M16 10v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 6l2-2M10 6L8 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1551522435-a13afa10f103?auto=format&fit=crop&w=600&h=300&q=80" alt="走行メーター" loading="lazy">
           </div>
-          <div class="service-number">01</div>
-          <h3 class="service-title">走行メーター管理システム</h3>
-          <p class="service-text">オークション会場に出品された中古車の走行距離データを蓄積・管理し、メーター改ざんなどの不正車両を排除するシステムを運営しています。</p>
-          <div class="service-line"></div>
+          <div class="service-body">
+            <div class="service-number">01</div>
+            <h3 class="service-title">走行メーター管理システム</h3>
+            <p class="service-text">オークション会場に出品された中古車の走行距離データを蓄積・管理し、メーター改ざんなどの不正車両を排除するシステムを運営しています。</p>
+          </div>
         </div>
         <div class="service-card fade-up" style="--delay: 0.1s">
-          <div class="service-icon">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M6 8h20M6 16h20M6 24h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="26" cy="22" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M24.5 22l1 1 2-2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=600&h=300&q=80" alt="車両検査" loading="lazy">
           </div>
-          <div class="service-number">02</div>
-          <h3 class="service-title">修復歴判定基準の統一</h3>
-          <p class="service-text">オークション会場ごとに異なっていた修復歴の判定基準を統一し、中古車流通の混乱を防止。消費者が安心して購入できる環境を整備しています。</p>
-          <div class="service-line"></div>
+          <div class="service-body">
+            <div class="service-number">02</div>
+            <h3 class="service-title">修復歴判定基準の統一</h3>
+            <p class="service-text">オークション会場ごとに異なっていた修復歴の判定基準を統一し、中古車流通の混乱を防止。消費者が安心して購入できる環境を整備しています。</p>
+          </div>
         </div>
         <div class="service-card fade-up" style="--delay: 0.2s">
-          <div class="service-icon">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 4l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1 3-6z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=600&h=300&q=80" alt="品質チェック" loading="lazy">
           </div>
-          <div class="service-number">03</div>
-          <h3 class="service-title">検査品質の向上</h3>
-          <p class="service-text">統一検査基準の策定・運用を通じて、全国のオートオークション会場における車両検査の品質向上と標準化を推進しています。</p>
-          <div class="service-line"></div>
+          <div class="service-body">
+            <div class="service-number">03</div>
+            <h3 class="service-title">検査品質の向上</h3>
+            <p class="service-text">統一検査基準の策定・運用を通じて、全国のオートオークション会場における車両検査の品質向上と標準化を推進しています。</p>
+          </div>
         </div>
         <div class="service-card fade-up" style="--delay: 0.3s">
-          <div class="service-icon">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M12 16l3 3 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 4a12 12 0 110 24 12 12 0 010-24z" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 2"/></svg>
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=600&h=300&q=80" alt="セキュリティ" loading="lazy">
           </div>
-          <div class="service-number">04</div>
-          <h3 class="service-title">不正車両の流通排除</h3>
-          <p class="service-text">冠水車や不正修理車両の出品対策、盗難車の検知など、不正車両の流通を排除するための取り組みを行っています。</p>
-          <div class="service-line"></div>
+          <div class="service-body">
+            <div class="service-number">04</div>
+            <h3 class="service-title">不正車両の流通排除</h3>
+            <p class="service-text">冠水車や不正修理車両の出品対策、盗難車の検知など、不正車両の流通を排除するための取り組みを行っています。</p>
+          </div>
         </div>
       </div>
     </div>
@@ -286,6 +324,7 @@
   <section class="section section--cta" id="contact">
     <div class="container">
       <div class="cta-card fade-up">
+        <div class="cta-bg-img" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80')"></div>
         <div class="cta-content">
           <span class="section-label">Contact</span>
           <h2 class="cta-title">お問い合わせ</h2>
@@ -309,7 +348,6 @@
         <div class="cta-decoration">
           <div class="cta-circle cta-circle--1"></div>
           <div class="cta-circle cta-circle--2"></div>
-          <div class="cta-circle cta-circle--3"></div>
         </div>
       </div>
     </div>
